@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narsis Tours</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="header-title">Narsis Tours</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+
+            <a href="booking.html">Booking
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="atas">
+            <div>
+                <h1>
+                    Narsis Tours
+                </h1>
+
+                <h3>
+                    “Jobs fill your pockets, adventures fill your soul.” - saltinourhair.com
+                </h3>
+
+                <p>
+                    Made with ❤️ by GrendpaCornel09
+                </p>
+            </div>
+
+            <div>
+                <img src="assets/illustrations/travel.png" alt="travel">
+            </div>
+        </div>
+
+        <h1 class="bawah">
+            BEST SELLERS
+        </h1>
+
+        <div class="main-container">
+            <div class="package-container">
+                <img src="assets/images/bali.jpg" alt="bali">
+                <h3>
+                    Bali Tour - 1 week
+                </h3>
+
+                <p>
+                    A week of tour in Bali.
+                </p>
+
+                <h4>
+                    ₽120,000
+                </h4>
+
+                <button onclick="goToBooking()" class="book-btn">
+                    BOOK NOW!
+                </button>
+            </div>
+
+            <div class="package-container">
+                <img src="assets/images/jakarta.png" alt="jakarta">
+                <h3>
+                    Tour in Jakarta - 3 days
+                </h3>
+
+                <p>
+                    3 days of tour in Indonesia's capital.
+                </p>
+
+                <h4>
+                    ₽10,000
+                </h4>
+
+                <button onclick="goToBooking()" class="book-btn">
+                    BOOK NOW!
+                </button>
+            </div>
+            <div class="package-container">
+                <img src="assets/images/nasi-padang.jpg" alt="naspad">
+                <h3>
+                    Culinary tour in Indonesia - 1 week
+                </h3>
+
+                <p>
+                    1 week of culinary tour in Indonesia.
+                </p>
+
+                <h4>
+                    ₽41,000
+                </h4>
+
+                <button onclick="goToBooking()" class="book-btn">
+                    BOOK NOW!
+                </button>
+            </div>
+        </div>
+
+        <h1 class="bawah">
+            Tour Details
+        </h1>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>
+                        Package
+                    </th>
+                    
+                    <th>
+                        Description
+                    </th>
+
+                    <th>
+                        Places to go
+                    </th>
+
+                    <th>
+                        Price
+                    </th>
+
+                    <th>
+                        BOOK NOW!
+                    </th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="assets/images/bali.jpg" alt="bali">
+                    </td>
+                    
+                    <td>
+                        Bali Tour - 1 Week
+                    </td>
+
+                    <td>
+                        Denpasar, Nusa Dua, Ubud, Babi Guling, and MORE!
+                    </td>
+
+                    <td>
+                        ₽120,000
+                    </td>
+
+                    <td>
+                        <button onclick="goToBooking()">
+                            BOOK NOW!
+                        </button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="assets/images/jakarta.png" alt="jakarta">
+                    </td>
+
+                    <td>
+                        Tour in Jakarta - 3 days
+                    </td>
+
+                    <td>
+                        Monas, Soto Betawi, & MANY MORE!
+                    </td>
+
+                    <td>
+                        ₽10,000
+                    </td>
+
+                    <td>
+                        <button onclick="goToBooking()">
+                            BOOK NOW!
+                        </button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="assets/images/nasi-padang.jpg" alt="naspad">
+                    </td>
+
+                    <td>
+                        Culinary tour in Indonesia - 1 week
+                    </td>
+
+                    <td>
+                        Padang, Jakarta, Bali, Papua, Kalimantan, Palembang, Jambi
+                    </td>
+
+                    <td>
+                        ₽41,000
+                    </td>
+
+                    <td>
+                        <button onclick="goToBooking()">
+                            BOOK NOW!
+                        </button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="assets/images/palembang.jpg" alt="palembang">
+                    </td>
+
+                    <td>
+                        Palembang Tour - 3 days
+                    </td>
+
+                    <td>
+                        Musi river, Musi Bridge, Pempeks
+                    </td>
+
+                    <td>
+                        ₽15,000
+                    </td>
+
+                    <td>
+                        <button onclick="goToBooking()">
+                            BOOK NOW!
+                        </button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="assets/images/surabaya.jpg" alt="surabaya">
+                    </td>
+
+                    <td>
+                        Surabaya Tour - 3 days
+                    </td>
+
+                    <td>
+                        Cheap foods, temples, Mount Bromo, and MUCH MORE!
+                    </td>
+
+                    <td>
+                        ₽12,500
+                    </td>
+
+                    <td>
+                        <button onclick="goToBooking()">
+                            BOOK NOW!
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <h1 class="bawah">Indonesia Travel Guides</h1>
+
+        <div class="main-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CBwKJfrm5-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WzvfC8enQPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="main-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/p2E9xSVTMyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <h4>
+            Narsis Tours
+        </h4>
+
+        <p>
+            There is no copyright, this is OUR website &copy December 24th 1991
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

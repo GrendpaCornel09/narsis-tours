@@ -1,0 +1,253 @@
+h1{
+    color: rgb(108, 196, 161);
+    font-size: 43px;
+    text-align: left;
+}
+
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.atas{
+    background-color: rgb(246, 227, 197);
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.atas img{
+    width: 300px;
+    margin: 30px;
+}
+
+.atas h3, p{
+    color: rgb(76, 172, 188);
+}
+
+.bawah{
+    text-align: center;
+    background-color: rgb(160, 217, 149);
+    color: rgb(76, 172, 188);
+    padding: 50px 100px;
+}
+
+.title{
+    text-align: center;
+    color: rgb(76, 172, 188);
+    padding: 50px 50px;
+}
+
+.main-container{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container iframe{
+    padding: 20px;
+}
+
+.package-container{
+    transition: all 0.2s ease-in-out;
+    margin: 20px;
+    padding: 16px;
+    border: 3px solid rgb(76, 172, 188);
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px rgb(76, 172, 188);
+}
+
+.package-container:hover{
+    background-color: rgb(177, 225, 234);
+    box-shadow: 15px 15px 30px rgb(76, 172, 188);
+}
+
+.package-container img{
+    width: 300px
+}
+
+.package-container h3, p, h4{
+    color: rgb(108, 196, 161);
+}
+
+button{
+    transition: all 0.2s ease-in-out;
+    background-color: rgb(160, 217, 149);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(100, 165, 87);
+    box-shadow: 5px 5px 5px rgb(73, 130, 62);
+}
+
+.book-btn{
+    margin-right: 60%;
+}
+
+table, th, td, tr, td{
+    border: 1px solid rgb(76, 172, 188);
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th{
+    background-color: rgb(246, 227, 197);
+    color: rgb(76, 172, 188);
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.table img{
+    width: 200px;
+}
+
+header{
+    background-color: rgb(246, 227, 197);
+    color: rgb(76, 172, 188);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    display: flex;
+}
+
+.header-title{
+    text-align: left;
+    color: rgb(76, 172, 188);
+    margin: 14px;
+    font-size: 18px;
+}
+
+nav{
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+
+a{
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    color: rgb(76, 172, 188);
+    float: left;
+    padding: 15px;
+}
+
+a:hover{
+    color: rgb(26, 26, 26)
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(160, 217, 149);
+    padding: 10px;
+    margin-top: 50px;
+}
+
+footer h4, p{
+    color: rgb(76, 172, 188);
+}
+
+.form-container{
+    text-align: center;
+}
+
+.form-container img{
+    width: 300px;
+}
+
+form{
+    text-align: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input{
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(76, 172, 188);
+    color: white;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 100px;
+    border: 3px solid rgb(51, 163, 118);
+}
+
+input:hover{
+    width: 110%;
+    box-shadow: 5px 5px 5px rgb(52, 130, 144);
+}
+
+input:focus{
+    border: 3px solid rgb(36, 159, 111);
+    width: 110%;
+    box-shadow: 5px 5px 5px rgb(52, 130, 144);
+}
+
+label{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+select{
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 100px;
+    border: 3px solid rgb(51, 163, 118);
+    background-color: rgb(76, 172, 188);
+    color: white;
+}
+
+select:hover{
+    width: 110%;
+    box-shadow: 5px 5px 5px rgb(52, 130, 144);
+}
+
+select:focus{
+    border: 3px solid rgb(36, 159, 111);
+    width: 110%;
+    box-shadow: 5px 5px 5px rgb(52, 130, 144);
+}
+
+.about{
+    display: block;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.about h1{
+    text-align: center;
+    color: rgb(76, 172, 188);
+}
+
+.about img{
+    width: 300px;
+}
+
+.about h3{
+    color: rgb(160, 217, 149);
+}
+
+.about p{
+    color: rgb(76, 172, 188);
+}
