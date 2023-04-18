@@ -51,7 +51,7 @@ body{
 }
 
 .package-container{
-    transition: all 0.2s ease-in-out;
+    transition: all 0.1s ease-in-out;
     margin: 20px;
     padding: 16px;
     border: 3px solid rgb(76, 172, 188);
@@ -60,7 +60,7 @@ body{
 }
 
 .package-container:hover{
-    background-color: rgb(177, 225, 234);
+    background-color: rgba(191, 209, 212, 0.3);
     box-shadow: 15px 15px 30px rgb(76, 172, 188);
 }
 
@@ -175,7 +175,7 @@ form{
 }
 
 input{
-    transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease-in-out;
     background-color: rgb(76, 172, 188);
     color: white;
     width: 100%;
@@ -187,14 +187,11 @@ input{
 }
 
 input:hover{
-    width: 110%;
     box-shadow: 5px 5px 5px rgb(52, 130, 144);
 }
 
 input:focus{
-    border: 3px solid rgb(36, 159, 111);
-    width: 110%;
-    box-shadow: 5px 5px 5px rgb(52, 130, 144);
+    box-shadow: 2.5px 2.5px 2.5px rgb(52, 130, 144);
 }
 
 label{
@@ -204,8 +201,8 @@ label{
 }
 
 select{
-    transition: all 0.5s ease-in-out;
-    width: 100%;
+    transition: all 0.2s ease-in-out;
+    width: 102%;
     display: inline-block;
     margin-bottom: 10px;
     padding: 5px;
@@ -216,14 +213,11 @@ select{
 }
 
 select:hover{
-    width: 110%;
-    box-shadow: 5px 5px 5px rgb(52, 130, 144);
+    box-shadow: 2.5px 2.5px 2.5px rgb(52, 130, 144);
 }
 
 select:focus{
-    border: 3px solid rgb(36, 159, 111);
-    width: 110%;
-    box-shadow: 5px 5px 5px rgb(52, 130, 144);
+    box-shadow: 2.5px 2.5px 2.5px rgb(52, 130, 144);
 }
 
 .about{
