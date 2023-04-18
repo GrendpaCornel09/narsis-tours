@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+Designed in 2021  
+No Frameworks used. All vanilla.
+
+>>>>>>> 3905478 (Fixed typo in README file.)
 # narsis-tours
 A website design for ordering travel ticket
 
